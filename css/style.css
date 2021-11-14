@@ -28,8 +28,13 @@
     height: 80%;
     margin-top: 40px;
     border:1px solid white;
-    border-radius: 10px;
-    background-color: rgba(22, 136, 197, 0.542);
+    border-radius: 5px;
+    background-color:black;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
 
 } 
  nav{
@@ -37,3 +42,18 @@
     height: 50px;
     background-color: rgba(26, 26, 187, 0.878);
 }  
+
+
+
+
+/* ---------------- */
+img{
+    width: 140px;
+}
+.imgcontainer{
+    
+    width: 140px;
+    height: 90px;
+    background-color: brown;
+
+}
